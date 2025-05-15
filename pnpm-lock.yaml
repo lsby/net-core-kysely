@@ -14,6 +14,9 @@ importers:
       '@lsby/ts-fp-data':
         specifier: ^0.2.4
         version: 0.2.5
+      '@lsby/ts-kysely':
+        specifier: ^0.1.0
+        version: 0.1.0
       kysely:
         specifier: ^0.27.4
         version: 0.27.4
@@ -554,6 +557,9 @@ packages:
 
   '@lsby/ts-global@0.0.5':
     resolution: {integrity: sha512-AwqWfOKleUpXUNJ7CBeXJURvIbzQbdggqyrFLqJFTfYi0lq7tIrZBZsBKwerddjbLj6AjFY5Tq0rhBm7Ar7yEQ==}
+
+  '@lsby/ts-kysely@0.1.0':
+    resolution: {integrity: sha512-fNCsTtB7J3Bucpk+cC0lt3gb8h9tkfLFxN8K15FzeyWCenujfHo7RlmVlZ2FLdiiSc6j7GkRt9OdiWUn0CbsqA==}
 
   '@lsby/ts-log@0.1.2':
     resolution: {integrity: sha512-uaw/L56XqE95gA0MElZHcLlQ9vQ0OpmZ71O4ARb4NljMRbsEHlouv8ZT4qpdZysPNaenV3ivFPog/qXXAsSzDA==}
@@ -2924,6 +2930,10 @@ snapshots:
       - sugarss
       - supports-color
       - terser
+
+  '@lsby/ts-kysely@0.1.0':
+    dependencies:
+      kysely: 0.27.4
 
   '@lsby/ts-log@0.1.2(@types/node@20.12.10)':
     dependencies:
