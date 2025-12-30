@@ -1,6 +1,6 @@
 {
   "name": "@lsby/net-core-kysely",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "type": "module",
   "exports": {
     "require": "./dist/cjs/index.cjs",
@@ -41,7 +41,7 @@
     "vitest": "^2.0.2"
   },
   "peerDependencies": {
-    "@lsby/net-core": "^0.11.0",
+    "@lsby/net-core": "^0.12.0",
     "@lsby/ts-fp-data": "^0.2.5",
     "@lsby/ts-kysely": "^0.2.5",
     "kysely": "^0.28.5",
