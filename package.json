@@ -29,9 +29,11 @@
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^4.2.1",
     "@lsby/eslint-config": "^0.1.2",
+    "@types/express": "^5.0.6",
     "@types/node": "^20.12.10",
     "@vitest/coverage-v8": "^2.0.2",
     "bumpp": "^9.4.1",
+    "express": "^5.2.1",
     "husky": "^9.1.4",
     "open-cli": "^8.0.0",
     "prettier": "3.2.5",
@@ -42,9 +44,9 @@
   },
   "peerDependencies": {
     "@lsby/net-core": "^0.14.0",
-    "@lsby/ts-fp-data": "^0.2.5",
-    "@lsby/ts-kysely": "^0.2.5",
-    "kysely": "^0.28.5",
+    "@lsby/ts-fp-data": "^0.2.7",
+    "@lsby/ts-kysely": "^0.2.10",
+    "kysely": "^0.29.2",
     "zod": "3.24.2"
   },
   "packageManager": "pnpm@9.5.0"
